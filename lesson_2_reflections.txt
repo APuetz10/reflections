@@ -1,0 +1,30 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+a shadow directory and infrastructure is set up
+necessary but not sufficient condition for tracking 
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+It is basically a list of the files that will be actively monitored
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+I can add files to the staging area if I want to finalize a change and double-check whether these are the relevant changes by using git diff and git diff --staged
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+If I want to try out different ways of changing the program code.
+
+How do the diagrams help you visualize the branch structure?
+They are a condensed version of the structure itself
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+The result is a file that includes all changes made in the two branches as long as there are no conflicts
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+pro: saves work and makes a suggestion that is logical
+con: in some situations, the merge may still be not what was intended
