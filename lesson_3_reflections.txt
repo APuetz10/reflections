@@ -7,7 +7,7 @@ Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
     the workflow of pushing and pulling should be under control of the
-    user (i.e. project owner)
+    user (i.e. the project owner)
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
